@@ -10,7 +10,6 @@ pub fn build(b: *std.Build) void {
         "vnav_calculator"
     };
     inline for (exe_files) |item|{
-        // Density altitude calculator
         const exe = b.addExecutable(.{
             .name = item,
             .root_module = b.createModule(.{
