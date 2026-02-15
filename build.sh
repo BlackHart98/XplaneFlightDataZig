@@ -1,3 +1,4 @@
+#!/bin/bash
 zig build
 
 python -m venv env
